@@ -314,8 +314,8 @@ abbr -a d docker
 abbr -a dc 'docker compose'
 abbr -a drun 'docker run -it --entrypoint=/bin/bash'
 abbr -a drunsh 'docker run -it --entrypoint=/bin/sh'
-abbr -a dvrun 'docker run -it --entrypoint=/bin/bash -v /home/lacroix:/wd -w /wd'
-abbr -a dvrunsh 'docker run -it --entrypoint=/bin/sh -v /home/lacroix:/wd -w /wd'
+abbr -a dvrun 'docker run -it --entrypoint=/bin/bash -v $HOME:/wd -w /wd'
+abbr -a dvrunsh 'docker run -it --entrypoint=/bin/sh -v $HOME:/wd -w /wd'
 
 # rust based tools
 abbr -a la 'exa -lah'
