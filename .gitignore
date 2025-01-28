@@ -5,3 +5,5 @@
 !fish/functions/base.fish
 !fish/functions/based.fish
 !fish/fish_plugins
+!README.md
+!starship.toml
