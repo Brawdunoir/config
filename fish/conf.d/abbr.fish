@@ -318,10 +318,9 @@ abbr -a dvrun 'docker run -it --entrypoint=/bin/bash -v $HOME:/wd -w /wd'
 abbr -a dvrunsh 'docker run -it --entrypoint=/bin/sh -v $HOME:/wd -w /wd'
 
 # rust based tools
-abbr -a la 'exa -lah'
+abbr -a la 'exa -laah'
 abbr -a ll 'exa -lh'
 abbr -a ls exa
-abbr -a lsa 'ls -lah'
 abbr -a ps procs
 abbr -a top btm
 abbr -a x extract
