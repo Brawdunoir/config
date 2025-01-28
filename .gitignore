@@ -1,0 +1,6 @@
+*
+!.gitignore
+!fish/config.d
+!fish/config.fish
+!fish/functions/base.fish
+!fish/functions/based.fish
