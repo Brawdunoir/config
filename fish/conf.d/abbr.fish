@@ -327,3 +327,6 @@ abbr -a x extract
 abbr -a du dust
 abbr -a cat 'bat'
 abbr -a df duf
+
+# xserver
+abbr -a xserv "export LIBGL_ALWAYS_INDIRECT=1export DISPLAY=$(ip route | awk '/^default/{print $3; exit}'):0"

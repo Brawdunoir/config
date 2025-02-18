@@ -1,10 +1,12 @@
 *
 !.gitignore
-!fish/config.d/abbr.fish
-!fish/config.d/image-sha.fish
+!fish/conf.d/abbr.fish
+!fish/conf.d/image-sha.fish
 !fish/config.fish
 !fish/functions/base.fish
 !fish/functions/based.fish
 !fish/fish_plugins
+!micro/settings.json
+!micro/bindings.json
 !README.md
 !starship.toml
