@@ -205,12 +205,10 @@ abbr -a gwtrm 'git worktree remove'
 # kubectl
 abbr -a k kubectl
 abbr -a kaf 'kubectl apply -f'
-abbr -a kc kconf
 abbr -a kca '_kca(){ kubectl "$@" --all-namespaces;  unset -f _kca; }; _kca'
 abbr -a kccc 'kubectl config current-context'
 abbr -a kcdc 'kubectl config delete-context'
 abbr -a kcgc 'kubectl config get-contexts'
-abbr -a kcn 'kubectl config set-context --current --namespace'
 abbr -a kcp 'kubectl cp'
 abbr -a kcsc 'kubectl config set-context'
 abbr -a kcuc 'kubectl config use-context'
@@ -330,3 +328,8 @@ abbr -a df duf
 
 # xserver
 abbr -a xserv "export LIBGL_ALWAYS_INDIRECT=1export DISPLAY=$(ip route | awk '/^default/{print $3; exit}'):0"
+
+# k8s
+abbr -a kc kubectx
+abbr -a kco kconf
+abbr -a kcn kubens
